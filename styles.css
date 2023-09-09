@@ -9,7 +9,7 @@ body{
 #container{
     margin: 50px 100px;
     min-width: 300px;
-    text-align: center;
+    justify-content: center;
 }
 img{
     scale: 1.5;
