@@ -14,9 +14,8 @@ pokeButton.addEventListener("click",function(){
             <div><img src="${json.sprites.front_default}"></div>
             <p>Altura: ${json.height/10} m</p>
             <p>Peso: ${json.weight/10} kg</p>
-            
+            <p>Tipo principal: ${json.types[0].type.name.toUpperCase()}</p>
             `
-            //<p>Habilidad principal: ${json.abilities[0].ability.name}</p>
         })
         .catch(error => console.log(error))
     }
@@ -25,5 +24,3 @@ pokeButton.addEventListener("click",function(){
     }
     
 });
-
-
